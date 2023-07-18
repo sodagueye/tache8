@@ -1,0 +1,157 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+ nav{
+    background: black; 
+    height: 30px;
+    width: 100%;
+} 
+ nav ul  {
+    position: absolute;
+    right: 50px;
+    margin-right: 100px;
+    
+   } 
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+     margin: 0 5px;
+} 
+ nav ul li a{
+    color: white;
+    font-size: 12px;
+    
+   } 
+  .online{
+   font-size: 12px;
+    color: white;
+   
+    margin-left: 200px;
+} 
+.soda{
+    display: flex;
+    height: 50px;
+    width: 100%;
+
+}
+.soda .navlinks{
+    display: flex;
+   /* justify-content: center; 
+    align-items: center; */
+    margin: auto;
+
+}
+.soda .navlinks a{
+align-items: center;
+margin: 0 25px;
+border-left: 1px solid rgb(212, 208, 208);
+border-right: 1px solid rgb(212, 208, 208);
+}
+.image{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 50px;
+}
+.icongroup{
+   margin-right: 100px;
+   padding: 5px;
+
+}
+.section{
+    background-image: url('images/image3.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+ .image1 img{
+ display: flex; 
+width: 70px;
+height: 70px;
+margin: auto;
+padding-top: 30px;
+
+}
+.bordure{
+border-bottom:2px solid orangered ;
+width: 70px;
+align-items: center;
+margin: auto;
+padding-top: 15px;
+} 
+.h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.p1{
+    text-align: center;
+    color: rgb(211, 205, 205);
+    padding-top: 10px;
+}
+.p2{
+    display: flex;
+    border: 2px solid white; 
+    width: 100px;
+    height: 30px;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 90px;
+}
+.p2 p{
+    color: rgb(211, 205, 205);
+   
+    font-size: 10px;
+    text-align: center;
+}
+.section2{
+    background-color: rgb(231, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+  
+} 
+.image7{
+    height: 300px;
+    width: 400px;  
+    
+}
+.image6{
+    height: 300px;
+    width: 400px;
+}
+fieldset {
+    position: relative;
+    bottom: 300px;
+    padding: 30px;
+    margin-left: 15px;
+    width: 350px;
+    height: 200px;
+}
+legend{
+    color: white;
+}
+.pack{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+} 
+    
