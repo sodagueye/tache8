@@ -13,7 +13,9 @@
 
     .navbar .store{
         display: flex;
-        justify-content: flex-end;   
+        position:absolute ;
+        right: 10px;
+       
     }
       
     .image7{
