@@ -23,8 +23,8 @@
     
    } 
  nav ul li{
-    display: inline-block;
-    line-height: 80px;
+    display: inline-block; 
+    /* line-height: 80px; */
      margin: 0 5px;
 } 
  nav ul li a{
@@ -46,16 +46,22 @@
 }
 .soda .navlinks{
     display: flex;
-   /* justify-content: center; 
-    align-items: center; */
     margin: auto;
+    flex-wrap: wrap;
+   
 
 }
 .soda .navlinks a{
 align-items: center;
 margin: 0 25px;
 border-left: 1px solid rgb(212, 208, 208);
+/* border-right: 1px solid rgb(212, 208, 208);  */
+}
+
+.search{
+border-left: 1px solid rgb(212, 208, 208);  
 border-right: 1px solid rgb(212, 208, 208);
+
 }
 .image{
     height: 80px;
@@ -69,12 +75,12 @@ border-right: 1px solid rgb(212, 208, 208);
    padding: 5px;
 
 }
-.section{
+ .section{
     background-image: url('images/image3.jpg');
     height: 80vh;
     background-repeat: no-repeat;
    background-size: cover;
-}
+} 
  .image1 img{
  display: flex; 
 width: 70px;
@@ -115,43 +121,68 @@ padding-top: 15px;
 }
 .p2 p{
     color: rgb(211, 205, 205);
-   
     font-size: 10px;
     text-align: center;
 }
 .section2{
     background-color: rgb(231, 224, 224);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+ height: 500px; 
     
-  
-} 
+    
+    } 
+    .sect3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;   
+    }
+    .h2{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 200px;
+     
+     
+
+    }
 .image7{
     height: 300px;
-    width: 400px;  
+    width: 350px;  
     
+}
+.groupebordure img{
+    position: absolute;
 }
 .image6{
     height: 300px;
-    width: 400px;
+    width: 350px;
 }
 fieldset {
     position: relative;
-    bottom: 300px;
+    bottom: 0px;
     padding: 30px;
     margin-left: 15px;
-    width: 350px;
+    width: 300px;
     height: 200px;
 }
-legend{
-    color: white;
-}
+
 .pack{
     font-size: 20px;
     font-weight: bold;
     color: white;
+    } 
+.fieldset{
+   border: 3px white solid;
+}
+
+   
+
     
-} 
-    
+        
+         
+ 
+   
+      
+      
+   
